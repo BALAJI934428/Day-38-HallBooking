@@ -1,4 +1,4 @@
-const Rooms = require("./CreateRoom")
+const Rooms = require("./Createroom")
 const moment = require('moment');
 
 const BookedList = []
