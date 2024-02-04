@@ -1,0 +1,38 @@
+
+To Create Room  =>POST request
+
+https://day-38-hallbooking.onrender.com/create
+
+JSON DATA
+
+{"Seats": 2,
+"Amenities":"Chairs AC FREE WIFI",
+"PriceForOneHr":300}
+
+
+To BOOKING Room  =>POST request
+
+https://day-38-hallbooking.onrender.com/book
+
+{"CustomerName":"balaji",
+"Date": "2023-12-22",
+"StartTime":"11:23 AM",
+"EndTime":"11:21 PM",
+"RoomID":1}
+
+
+To List Rooms with Booking Status =>GET request
+
+https://day-38-hallbooking.onrender.com/listRooms
+
+
+To List Customers with Booking =>GET request
+
+https://day-38-hallbooking.onrender.com/listcustomers
+
+
+
+Each Customer Data =>GET request
+
+https://day-38-hallbooking.onrender.com/eachCustomerData/:CustomerName
+
