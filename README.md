@@ -1,4 +1,3 @@
-# HALL Booking
+#Use Text File to Validate the task
 
-Please check the postman documentation link -
-https://documenter.getpostman.com/view/30449129/2s9YRGwUQF
+
